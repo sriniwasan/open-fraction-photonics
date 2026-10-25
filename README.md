@@ -74,4 +74,21 @@ This project is in its structural infancy and welcomes architects, physicists, o
 2. **Optical Simulation:** Mapping out geometric fraction grid-routing paths using open-source design software like KLayout.
 3. **Mathematical Refinement:** Optimizing the optical frequency-mixing parameters for complex rational operations.
 
+## 🧮 Architectural Walkthrough: Multiplication Example
 
+To demonstrate how the system bypasses Boolean loops, here is the mechanical process for calculating exactly: 
+
+$$\frac{1}{2} \times \frac{2}{3} = \frac{2}{6} \rightarrow \text{Self-Reduces to} \rightarrow \frac{1}{3}$$
+
+1. **Injection Phase:** The digital host interface sends two fraction pairs to the laser array. 
+   * Fraction 1 ($\frac{1}{2}$): Numerator $N_1$ fires at Wavelength $\lambda_A$ (Intensity = 1). Denominator $D_1$ fires at Wavelength $\lambda_B$ (Intensity = 2).
+   * Fraction 2 ($\frac{2}{3}$): Numerator $N_2$ fires at Wavelength $\lambda_A$ (Intensity = 2). Denominator $D_2$ fires at Wavelength $\lambda_B$ (Intensity = 3).
+
+2. **Calculation Phase (The Core):** The signals travel down parallel optical tracks. Because multiplication of fractions is simply $(N_1 \times N_2) / (D_1 \times D_2)$, the paths channel the $N$ waves into one optical mixing crystal and the $D$ waves into another. The natural physics of the crystal structure combines the intensities instantly without clock cycles, yielding an intermediate unsimplified output state of:
+   * Numerator Intensity = 2
+   * Denominator Intensity = 6
+
+3. **Geometric Reduction Phase:** The unsimplified signals are routed into a micro-ring resonator matrix calibrated to fractional divisions. Because the ratio of $2:6$ shares a common divisor, the wave peaks structurally interfere with the physical perimeter of the loop. The unreduced properties cancel out, forcing only the maximally resonated, simplest structural state to emerge:
+   * Final Output: Numerator Intensity = 1, Denominator Intensity = 3.
+
+The operation completes at the speed of light, producing a perfectly exact fraction with zero floating-point approximation drift.
