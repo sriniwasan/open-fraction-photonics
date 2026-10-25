@@ -32,8 +32,6 @@ Unlike electrons moving through copper, uncharged photons moving through glass o
 This architecture is published openly to establish immediate **Prior Art**. It is explicitly licensed under the reciprocal CERN Open Hardware License (CERN-OHL-S). Any corporate body may manufacture or build upon these designs, but they are legally mandated to share all modifications openly with the world.
 
 ---
-
-## 📐 Conceptual System Diagram
 ## 📐 Conceptual System Diagram
 
 ```text
