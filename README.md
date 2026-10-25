@@ -34,37 +34,40 @@ This architecture is published openly to establish immediate **Prior Art**. It i
 ---
 
 ## 📐 Conceptual System Diagram
-HOST CPU / DIGITAL INTERFACE ]
-│
-▼ (Binary Data Inputs)
-┌──────────────────────────────────────────────┐
-│ 1. OPTOELECTRONIC INJECTOR ARRAY             │
-│    Converts integers into distinct light     │
-│    frequencies (colors) and intensities.     │
-└─────────────────────┬────────────────────────┘
-│
-▼ (Waveguides)
-┌──────────────────────────────────────────────┐
-│ 2. NONLINEAR PHOTONIC CORE                   │
-│    Performs instant calculations via         │
-│    wavelength mixing and wave interactions.  │
-└─────────────────────┬────────────────────────┘
-│
-▼ (Unsimplified Light Waves)
-┌──────────────────────────────────────────────┐
-│ 3. GEOMETRIC REDUCER (Self-Simplification)   │
-│    Resonator loops force waves to filter     │
-│    themselves down to the lowest common      │
-│    fractional term at the speed of light.    │
-└─────────────────────┬────────────────────────┘
-│
-▼ (Exact Fractional Output)
-┌──────────────────────────────────────────────┐
-│ 4. RECEIVER MATRIX                           │
-│    Photodiode sensors map light back into    │
-│    exact data structures for display.        │
-└──────────────────────────────────────────────┘
+## 📐 Conceptual System Diagram
 
+```text
+    [ HOST CPU / DIGITAL INTERFACE ]
+                  │
+                  ▼ (Binary Data Inputs)
+    ┌──────────────────────────────────────────────┐
+    │ 1. OPTOELECTRONIC INJECTOR ARRAY             │
+    │    Converts integers into distinct light     │
+    │    frequencies (colors) and intensities.     │
+    └─────────────────────┬────────────────────────┘
+                          │
+                          ▼ (Waveguides)
+    ┌──────────────────────────────────────────────┐
+    │ 2. NONLINEAR PHOTONIC CORE                   │
+    │    Performs instant calculations via         │
+    │    wavelength mixing and wave interactions.  │
+    └─────────────────────┬────────────────────────┘
+                          │
+                          ▼ (Unsimplified Light Waves)
+    ┌──────────────────────────────────────────────┐
+    │ 3. GEOMETRIC REDUCER (Self-Simplification)   │
+    │    Resonator loops force waves to filter     │
+    │    themselves down to the lowest common      │
+    │    fractional term at the speed of light.    │
+    └─────────────────────┬────────────────────────┘
+                          │
+                          ▼ (Exact Fractional Output)
+    ┌──────────────────────────────────────────────┐
+    │ 4. RECEIVER MATRIX                           │
+    │    Photodiode sensors map light back into    │
+    │    exact data structures for display.        │
+    └──────────────────────────────────────────────┘
+```
 ## 🤝 How to Contribute
 
 This project is in its structural infancy and welcomes architects, physicists, open-source chip designers, and hobbyists alike. We are actively seeking contributions in the following domains:
