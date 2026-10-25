@@ -1,0 +1,12 @@
+Copyright (c) 2026 OpenFractionPhotonics Project contributors.
+
+This project's hardware documentation and architectural designs are licensed under the CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0).
+
+You may use, copy, modify, distribute, and manufacture hardware based on these sources under the terms of the CERN-OHL-S-2.0. 
+
+CRITICAL REQUIREMENT (STRONGLY RECIPROCAL):
+If you modify these architectural blueprints, layout files, or geometric routing algorithms, or if you manufacture physical hardware derived from this project, 
+you MUST make your modifications and complete manufacturing design files available to the general public under the exact same open-source license. 
+You cannot lock these concepts behind private patents or corporate trade secrets.
+
+A full copy of the license legal text can be found at: https://ohwr.org
